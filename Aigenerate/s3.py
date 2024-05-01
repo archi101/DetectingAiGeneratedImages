@@ -7,8 +7,8 @@ import requests
 
 # Set up the S3 client and resource
 # Get AWS credentials from environment variables
-aws_access_key_id = os.environ.get('AKIASJGWQJV4UVG4VRG5')
-aws_secret_access_key = os.environ.get('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')
+aws_access_key_id = os.environ.get('aws_secret_access_key_id')
+aws_secret_access_key = os.environ.get('aws_secret_access_key')
 
 # Create an S3 client and resource using environment variables
 s3_client = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
