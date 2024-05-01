@@ -5,8 +5,8 @@ import openai
 import pandas as pd
 from openai import OpenAI
 
-AWS_Access_Key_ID = os.environ.get('AWS_ACCESS_KEY_ID', 'AKIASJGWQJV4UVG4VRG5')
-AWS_Secret_Access_Key = os.environ.get('AWS_SECRET_ACCESS_KEY', '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')
+AWS_Access_Key_ID = os.environ.get('AWS_ACCESS_KEY_ID', 'AWS_ACCESS_KEY_ID')
+AWS_Secret_Access_Key = os.environ.get('AWS_SECRET_ACCESS_KEY', 'AWS_SECRET_ACCESS_KEY')
 
 session = boto3.Session(
     aws_access_key_id=AWS_Access_Key_ID,
